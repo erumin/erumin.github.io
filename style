@@ -50,7 +50,13 @@ nav {
 			height : autopx;
 		}
 
-#illustration img {
+#fanart img {
+			padding : 7px;
+			background: #ffffff; 
+			margin: 3px;
+}
+
+#original img {
 			padding : 7px;
 			background: #ffffff; 
 			margin: 3px;
