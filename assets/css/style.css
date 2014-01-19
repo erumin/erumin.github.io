@@ -54,7 +54,7 @@ nav {
 	height: autopx;
 	font-size: 14px;
 }
-#illustrations img {
+#illustrations img, #fanart img, #original img {
 	margin: 3px;
 	padding: 7px;
 	background: #ffffff;
