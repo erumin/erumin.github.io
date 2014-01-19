@@ -22,12 +22,11 @@ input, textarea {
 
 #wrapper {
     margin: 50px auto; /* 50px from the top and auto centered */
-    width: 960px;
 }
 
 #form {
-    margin-left: 210px;
-    width:400px;
+    margin: 0px auto;
+    width:50%;
 } 
 
 h2 { 
@@ -44,7 +43,7 @@ label {
 
 /* Style the text boxes */
 input, textarea {
-	width: 379px;
+	width: 80%;
 	background: #efefef;
 	border: 1px solid #ddd;
 	font-size: 0.9em;

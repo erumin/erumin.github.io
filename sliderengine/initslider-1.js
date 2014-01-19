@@ -20,7 +20,7 @@ jQuery(document).ready(function(){
 
         width:700,
 
-        height:300,
+        height:150,
 
         skinsfoldername:"",
 
