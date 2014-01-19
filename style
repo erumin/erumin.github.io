@@ -195,7 +195,7 @@ nav {
 }
 
 
-@media (max-width: 480px) {
+@media handheld, screen and (max-width: 480px) {
 	#content {height : auto}
 	body{text-align:center;}
 	#test{display:none;}
