@@ -50,7 +50,7 @@ nav {
 			height : autopx;
 		}
 
-#illustrations img {
+#illustration img {
 			padding : 7px;
 			background: #ffffff; 
 			margin: 3px;
