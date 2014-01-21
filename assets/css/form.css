@@ -1,0 +1,75 @@
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/*  CSS3 styles */
+
+input, textarea {
+	border-radius: 6px;
+	-mox-border-radius: 6px;
+	-weblit-border-radius: 6px;
+}
+
+#wrapper {
+	margin: 50px auto;
+	/* 50px from the top and auto centered */
+}
+
+#form {
+	margin: 0px auto;
+	width:50%;
+}
+
+h2 {
+	padding: 10px;
+	height: 30px;
+	background-color: #666;
+	color: white;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+/* Style the text boxes */
+
+input, textarea {
+	margin-top: 3px;
+	padding: 10px;
+	width: 80%;
+	/*height: 40px;*/
+	border: 1px solid #ddd;
+	background: #efefef;
+	color: #666;
+	font-size: 0.9em;
+}
+
+textarea {
+	height:213px;
+	color: #666;
+}
+
+input:focus, textarea:focus {
+	border:1px solid #99cc66;
+}
+
+#submit {
+	margin-top:20px;
+	width:97px;
+	height:43px;
+	border:none;
+	background:url('../img/send_btn.png');
+	text-indent:-9999px;
+	cursor:pointer;
+}
+
+#submit:hover {
+	opacity:0.9;
+}
