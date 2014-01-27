@@ -179,9 +179,63 @@ nav {
 	width: 100%;
 	height: auto;
 }
+
+#img4 {
+		position: relative;
+		padding: 0px;
+		margin-bottom: 5%;
+		float: left;
+		width : 100%;
+  		text-align: center;
+		background: #E6E6E6;
+		color: #8F99AB;
+		}
+
+#img5 {
+		position: relative;
+		padding: 0px
+		margin-left: 0px;
+		float: left;
+		width : 100%;
+  		text-align: center;
+		background: #E6E6E6;
+		color: #8F99AB;
+		}
+
+.test2 {opacity: .6;}
+
+
+
+.test2:hover,  
+.test2:focus {
+	opacity: 1;
+    left: 10px;  
+}
+
+.test2 img {width : 100%;}
+
+#back { width: 10%;
+	background : #E6E6E6;
+	margin: 0px auto;
+	margin-top: 10px;
+	padding : 5px;
+	color: #8F99AB}
+
+#back {opacity: .6;}
+
+#back:hover,  
+#back:focus {
+	opacity: 1; 
+}
+
+
 #mobile {
 	display: none;
+
+
 }
+
+
 @media handheld, screen and (max-width: 480px) {
 	#content {
 		height: auto;
@@ -193,14 +247,11 @@ nav {
 		display:none;
 	}
 	nav {
-		margin-top: 10%;
-		margin-bottom: 10%;
-		margin-left: 20%;
 		text-align: center;
 		font-size: 20px;
-		-webkit-columns: 3;
-		-moz-columns: 3;
-		columns: 3;
+		-webkit-columns: 1;
+		-moz-columns: 1;
+		columns: 1;
 	}
 	#about {
 		padding-top:0;
@@ -213,14 +264,15 @@ nav {
 		padding:0;
 	}
 	ul {
+		display: block;
 		margin: 0 auto;
 		border-bottom: none;
+		width: auto;
 	}
 	li {
 		float: none;
 		margin-bottom: 5%;
 		padding: 5%;
-		width: 100%;
 		background: #E6E6E6;
 		text-align: center;
 	}
